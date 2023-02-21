@@ -4,43 +4,47 @@ ul {
     color: aliceblue;
     list-style: none;
     text-align: right;
+    margin: 0;
 }
 
 header {
 
     background-color: #1B2430;
-    max-width: 1920px;
-    max-height: 100px
+
 }
 
 
 #heade {
     display: block;
-    max-width: 1920px;
-    max-height: 427px;
-
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
 }
 
 header div {
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
 }
 
 p {
     font-size: 20px;
-    width: 773.62px;
-    height: 120px;
+    width: 775px;
+
 }
 
 
 #logo {
-    display: flex;
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 50px;
 }
 
 a {
+    display: block;
     padding: 30px 30px;
+    color: white;
 }
 
 header nav li {
@@ -140,159 +144,93 @@ header nav li {
     font-size: 36px;
 }
 
-main {
-    max-width: 1219px;
-    max-height: 2851px;
-    margin-top: 474px;
-    margin-bottom: 589px;
-    margin-left: 391px;
-    margin-right: 310px;
-}
-
 main section {
     display: flex;
+    margin: auto;
     margin-top: 35px;
-    margin-left: 250px;
+    align-items: center;
 }
 
-.sectionMercure {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 402px;
-    margin-bottom: 3152.74px;
-    margin-right: 317.38px;
-    margin-top: 474px;
-}
+section {
+    max-width: 1200px;
+    margin: auto;
 
-.sectionVenus {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 401px;
-    margin-bottom: 2795px;
-    margin-right: 318px;
-    margin-top: 825px;
-}
-
-.sectionLaTerre {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 409px;
-    margin-bottom: 2444px;
-    margin-right: 310px;
-    margin-top: 1176px;
-}
-
-.sectionMars {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 391px;
-    margin-bottom: 2077px;
-    margin-right: 328px;
-    margin-top: 1543px;
-}
-
-.sectionJupiter {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 402px;
-    margin-bottom: 1630px;
-    margin-right: 317px;
-    margin-top: 1990px;
-}
-
-.sectionSaturne {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 401px;
-    margin-bottom: 1274px;
-    margin-right: 318px;
-    margin-top: 2346px;
-}
-
-.sectionUranus {
-    max-width: 1201px;
-    max-height: 295px;
-    margin-left: 253px;
-    margin-bottom: 892px;
-    margin-right: 466px;
-    margin-top: 2727px;
-}
-
-.sectionNeptune {
-    max-width: 1201px;
-    max-height: 294px;
-    margin-left: 402px;
-    margin-bottom: 589px;
-    margin-right: 317px;
-    margin-top: 3031px;
 }
 
 
-
-.Mercureimg {
+main section img {
     width: 300px;
-    height: 283.26px;
-    margin-right: 127px;
-    margin-bottom: 185.74px;
+    height: 285px;
 }
 
-
-.Venusimg {
-    width: 300px;
-    height: 283.26px;
-    margin-left: 894px;
-    margin-top: 355px;
-    margin-right: 25px;
-    margin-bottom: 2212.74px;
-}
-
-.LaTerreimg {
-    width: 300px;
-    height: 283.26px;
-}
-
-.Marsimg {
-    width: 300px;
-    height: 283.26px;
-}
-
-.Jupiterimg {
-    width: 300px;
-    height: 283.26px;
-}
-
-.Saturneimg {
-    width: 300px;
-    height: 283.26px;
-    margin-left: 732px;
-    margin-bottom: 97.76;
-}
-
-.Uranusimg {
-    width: 300px;
-    height: 283.26px;
-    margin-bottom: 137.77px;
-}
-
-.Neptuneimg {
-    width: 300px;
-    height: 283.26px;
-    margin-left: 19.77;
-    margin-top: 401.74px;
-}
-
-body {
-    max-width: 1920px;
-    max-height: 3914px;
-}
 
 footer {
 
-    max-width: 1922px;
-    max-height: 378px;
+    width: 100%;
+    height: 378px;
     background-color: #1B2430;
-    margin-top: 3539px;
-    margin-left: 2px;
-    margin-right: 0;
-    margin-bottom: 3px;
+    margin:auto
+}
+#imgneptune{
+    margin-left: 95px;
+}
+#imguranus{
+    margin-right: 127px;
+}
+#imgsaturne{
+    margin-left: 95px;
+}
+#imgjupiter{
+    margin-right: 127px;
+}
+#imgmars{
+    margin-left: 95px;
+}
+#imglaterre{
+    margin-right: 127px;
+}
+#imgvenus{
+    margin-left: 95px;
+}
+#imgmercure{
+    margin-right: 127px;
+}
+
+/*h3 :first-of-type{
+    font-size: 36px;
+    text-align: center;
+    margin: ;
+}
+
+h3 :nth-of-type(3){
+    font-size: 30px;
+}*/
+
+footer p{
+    text-align: center;
+    margin: auto;
+}
+
+
+footer div nav ul
+{display: flex;
+    flex-direction: column;
+
+}
+
+.footerdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.lesG{
+    font-size: 30px;
+}
+
+.lesT{
+    font-size: 30px;
+}
+
+.lesP{
+    font-size: 30px;
 }

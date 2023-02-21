@@ -12,8 +12,9 @@
 
 <body>
     <header>
-        <img src="./logo.png" alt="Image du logo">
+       
         <div id="syssolaire">
+            <img src="./logo.png" alt="Image du logo" id="logo">
             <nav>
                 <ul>
                     <li><a href="https://fr.wikipedia.org/wiki/Mercure_(plan%C3%A8te)" target="_blank"
@@ -37,9 +38,9 @@
     </header>
 
     <main>
-        <div id="syssolaire">
+        <div>
             <section class="sectionMercure">
-                <img src="./mercure.png" alt="Image de la planète Mercure" class="Mercureimg">
+                <img src="./mercure.png" alt="Image de la planète Mercure" id="imgmercure">
                 <div id="Mercure">
                     <h2 id="mercure">Mercure</h2>
                     <span id="first">Tellurique</span><span id="second">Antiquité</span>
@@ -80,10 +81,10 @@
                         reprehenderit,
                         asperiores saepe?</p>
                 </div>
-                <img src="./venus.png" alt="Image de la planète Vénus" class="Venusimg">
+                <img src="./venus.png" alt="Image de la planète Vénus" id="imgvenus">
             </section>
             <section class="sectionLaTerre">
-                <img src="./terre.png" alt="Image de la planète Terre" class="LaTerreimg">
+                <img src="./terre.png" alt="Image de la planète Terre" id="imglaterre">
                 <div id="LaTerre">
                     <h2 id="laterre">La Terre</h2>
                     <span id="first">Tellurique</span><span id="second">Antiquité</span>
@@ -124,14 +125,14 @@
                         reprehenderit,
                         asperiores saepe?</p>
                 </div>
-                <img src="./mars.png" alt="Image de la planète Mars" class="Marsimg">
+                <img src="./mars.png" alt="Image de la planète Mars" id="imgmars">
             </section>
 
             <hr>
             <h3>CEINTURE D'ASTEROÏDES</h3>
             </hr>
             <section class="sectionJupiter">
-                <img src="./jupiter.png" alt="Image de la planète Jupiter" class="Jupiterimg">
+                <img src="./jupiter.png" alt="Image de la planète Jupiter" id="imgjupiter">
                 <div id="Jupiter">
                     <h2 id="jupiter">Jupiter</h2>
                     <span id="autre">Gazeuse</span><span id="second">Antiquité</span>
@@ -172,10 +173,10 @@
                         reprehenderit,
                         asperiores saepe?</p>
                 </div>
-                <img src="./saturn.png" alt="Image de la planète Saturne" class="Saturneimg">
+                <img src="./saturn.png" alt="Image de la planète Saturne" id="imgsaturne">
             </section>
             <section class="sectionUranus">
-                <img src="./uranus.png" alt="Image de la planète Uranus" class="Uranusimg">
+                <img src="./uranus.png" alt="Image de la planète Uranus" id="imguranus">
                 <div id="Uranus">
                     <h2 id="uranus">Uranus</h2>
                     <span id="autre">Gazeuse</span><span id="autre2">1781</span>
@@ -216,43 +217,43 @@
                         reprehenderit,
                         asperiores saepe?</p>
                 </div>
-                <img src="./neptun.png" alt="Image de la planète Neptune">
+                <img src="./neptun.png" alt="Image de la planète Neptune" id="imgneptune">
             </section>
         </div>
     </main>
 
     <footer>
-        <h3>Les Télluriques</h3>
-        <nav>
-            <ul>
-                <li><a href="#mercure" title="Redirection vers la section Mercure">Mercure</a></li>
-                <li><a href="#venus" title="Redirection vers la section Venus">Vénus</a></li>
-                <li><a href="#laterre" title="Redirection vers la section Terre">La Terre</a></li>
-                <li><a href="#mars" title="Redirection vers la section Mars">Mars</a></li>
-            </ul>
-        </nav>
+        <div class="footerdiv">
+            <h3 class="lesT">Les Télluriques</h3>
+            <nav>
+                <ul>
+                    <li><a href="#mercure" title="Redirection vers la section Mercure">Mercure</a></li>
+                    <li><a href="#venus" title="Redirection vers la section Venus">Vénus</a></li>
+                    <li><a href="#laterre" title="Redirection vers la section Terre">La Terre</a></li>
+                    <li><a href="#mars" title="Redirection vers la section Mars">Mars</a></li>
+                </ul>
+            </nav>
+            <h3 class="lesG">Les Gazeuses</h3>
+            <nav>
+                <ul>
+                    <li><a href="#jupiter" title="Redirection vers la section Jupiter">Jupiter</a></li>
+                    <li><a href="#saturne" title="Redirection vers la section Saturne">Saturne</a></li>
+                    <li><a href="#uranus" title="Redirection vers la section Uranus">Uranus</a></li>
+                    <li><a href="#neptune" title="Redirection vers la section Neptune">Neptune</a></li>
+                </ul>
+            </nav>
+            <h3 class="lesP">Partenaires</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://www.cieletespace.fr/" target="_blank"
+                            title="Redirection vers le site Ciel & Espace">Ciel&nbsp;&&nbsp;Espace</a></li>
+                    <li><a href="https://www.cieletespace.fr/" target="_blank"
+                            title="Redirection vers le site Journal du ciel">Le Journal du Ciel</a></li>
+                </ul>
+            </nav>
+        </div>
 
-        <h3>Les Gazeuses</h3>
-        <nav>
-            <ul>
-                <li><a href="#jupiter" title="Redirection vers la section Jupiter">Jupiter</a></li>
-                <li><a href="#saturne" title="Redirection vers la section Saturne">Saturne</a></li>
-                <li><a href="#uranus" title="Redirection vers la section Uranus">Uranus</a></li>
-                <li><a href="#neptune" title="Redirection vers la section Neptune">Neptune</a></li>
-            </ul>
-        </nav>
-
-        <h3>Partenaires</h3>
-        <nav>
-            <ul>
-                <li><a href="https://www.cieletespace.fr/" target="_blank"
-                        title="Redirection vers le site Ciel & Espace">Ciel&nbsp;&&nbsp;Espace</a></li>
-                <li><a href="https://www.cieletespace.fr/" target="_blank"
-                        title="Redirection vers le site Journal du ciel">Le Journal du Ciel</a></li>
-            </ul>
-        </nav>
-
-        <hr>
+        <hr id="footermaquette">
         <p>Maquette réalisée dans un but pédagogique par</p>
         <p>&copy;M.PETIT Louis | M. VIGREUX Joel | M. GIVRY Simon | M. MOY Yohann</p>
 
