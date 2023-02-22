@@ -32,6 +32,7 @@ header div {
 p {
     font-size: 20px;
     width: 775px;
+    text-align: justify;
 
 }
 
@@ -45,29 +46,32 @@ a {
     display: block;
     padding: 30px 30px;
     color: white;
+    text-decoration: none;
 }
 
 header nav li {
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 #first {
-    
+
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 12px;
     padding-top: 12px;
     background-color: #D6D5A8;
     border-radius: 10px;
-    color: white;
+    color: black;
     font-size: 18px;
+    font-weight: 500;
     margin-right: 26px;
     box-shadow: inset;
 }
 
 #second {
-    
+
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 12px;
@@ -76,24 +80,26 @@ header nav li {
     color: white;
     border-radius: 10px;
     font-size: 18px;
+    font-weight: 500;
 }
 
 #autre {
-    
+
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 12px;
     padding-top: 12px;
     background-color: #816797;
-    background-image: linear-gradient( rgba(129, 103, 151, 0.5),rgba(81, 85, 126, 0.5));
+    background-image: linear-gradient(rgba(129, 103, 151, 0.5), rgba(81, 85, 126, 0.5));
     border-radius: 10px;
     color: white;
     font-size: 18px;
+    font-weight: 500;
     margin-right: 30px
 }
 
 #autre2 {
-    
+
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 12px;
@@ -102,10 +108,11 @@ header nav li {
     border-radius: 10px;
     color: white;
     font-size: 18px;
+    font-weight: 500;
 }
 
 #autre3 {
-    
+
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 12px;
@@ -114,46 +121,63 @@ header nav li {
     border-radius: 10px;
     color: white;
     font-size: 18px;
+    font-weight: 500;
 }
 
 #mercure {
     font-size: 36px;
     margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #venus {
     font-size: 36px;
     margin-bottom: 22px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #laterre {
     font-size: 36px;
     margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #mars {
     font-size: 36px;
     margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #jupiter {
     font-size: 36px;
     margin-bottom: 16px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #saturne {
     font-size: 36px;
     margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #uranus {
     font-size: 36px;
     margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 #neptune {
     font-size: 36px;
     margin-bottom: 21px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
 
 main section {
@@ -169,8 +193,8 @@ section {
 
 }
 
-main{
-    background-color: #FFFFFF;
+main {
+    background-color: #F6F6F6;
 }
 
 main section img {
@@ -184,72 +208,98 @@ footer {
     width: 100%;
     height: 378px;
     background-color: #1B2430;
-    margin:auto
+    margin: auto
 }
-#imgneptune{
+
+#imgneptune {
     margin-left: 95px;
 }
-#imguranus{
-    margin-right: 127px;
-}
-#imgsaturne{
-    margin-left: 95px;
-}
-#imgjupiter{
-    margin-right: 127px;
-}
-#imgmars{
-    margin-left: 95px;
-}
-#imglaterre{
-    margin-right: 127px;
-}
-#imgvenus{
-    margin-left: 95px;
-}
-#imgmercure{
+
+#imguranus {
     margin-right: 127px;
 }
 
-/*h3 :first-of-type{
-    font-size: 36px;
-    text-align: center;
-    margin: ;
+#imgsaturne {
+    margin-left: 95px;
 }
 
-h3 :nth-of-type(3){
+#imgjupiter {
+    margin-right: 127px;
+}
+
+#imgmars {
+    margin-left: 95px;
+}
+
+#imglaterre {
+    margin-right: 127px;
+}
+
+#imgvenus {
+    margin-left: 95px;
+}
+
+#imgmercure {
+    margin-right: 127px;
+}
+
+main h3 {
     font-size: 30px;
-}*/
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
-footer p{
+
+
+footer p {
     text-align: center;
     margin: auto;
+    color: white;
+    ;
 }
 
 
-footer div nav ul
-{display: flex;
+footer div nav ul {
+    display: flex;
     flex-direction: column;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-.footerdiv{
+footer div nav ul li a {
+    color: #9F9F9F;
+}
+
+.footerdiv {
     display: flex;
     justify-content: center;
+    color: #FFFFFF;
 }
 
-.lesG{
+.lesG {
     font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
-.lesT{
+.lesT {
     font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
-.lesP{
+.lesP {
     font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
 }
 
-body{
-    font-family:  Roboto
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F6F6F6;
+}
+
+@media screen and (max-width:1920px) {
+    
 }
