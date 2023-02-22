@@ -53,95 +53,107 @@ header nav li {
 
 
 #first {
-    border: solid 1px;
-    padding: 10px 10px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     background-color: #D6D5A8;
-    border-radius: 5px;
-    padding: 10px 10px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
+    margin-right: 26px;
+    box-shadow: inset;
 }
 
 #second {
-    border: solid 1px;
-    padding: 10px 10px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     background-color: black;
     color: white;
-    border-radius: 5px;
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-#gazeuse {
-    border: solid 1px;
-    padding: 10px 10px;
-    background-color: bisque;
-    border-radius: 5px;
-    padding: 10px 10px;
-    color: white;
+    border-radius: 10px;
     font-size: 18px;
 }
 
 #autre {
-    border: solid 1px;
-    padding: 10px 10px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     background-color: #816797;
-    border-radius: 5px;
-    padding: 10px 10px;
+    background-image: linear-gradient( rgba(129, 103, 151, 0.5),rgba(81, 85, 126, 0.5));
+    border-radius: 10px;
     color: white;
     font-size: 18px;
+    margin-right: 30px
 }
 
 #autre2 {
-    border: solid 1px;
-    padding: 10px 10px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     background-color: black;
-    border-radius: 5px;
-    padding: 10px 10px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
 }
 
 #autre3 {
-    border: solid 1px;
-    padding: 10px 10px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     background-color: black;
-    border-radius: 5px;
-    padding: 10px 10px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
 }
 
 #mercure {
     font-size: 36px;
+    margin-bottom: 16px;
 }
 
 #venus {
     font-size: 36px;
+    margin-bottom: 22px;
 }
 
 #laterre {
     font-size: 36px;
+    margin-bottom: 16px;
 }
 
 #mars {
     font-size: 36px;
+    margin-bottom: 21px;
 }
 
 #jupiter {
     font-size: 36px;
+    margin-bottom: 16px;
 }
 
 #saturne {
     font-size: 36px;
+    margin-bottom: 21px;
 }
 
 #uranus {
     font-size: 36px;
+    margin-bottom: 15px;
 }
 
 #neptune {
     font-size: 36px;
+    margin-bottom: 21px;
 }
 
 main section {
@@ -157,6 +169,9 @@ section {
 
 }
 
+main{
+    background-color: #FFFFFF;
+}
 
 main section img {
     width: 300px;
@@ -233,4 +248,8 @@ footer div nav ul
 
 .lesP{
     font-size: 30px;
+}
+
+body{
+    font-family:  Roboto
 }
