@@ -5,11 +5,22 @@
 #headernav {
     display: flex;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #9F9F9F;
+
 }
 
 .imgracoon {
-    width: 364px;
+    width: 308px;
     height: 203px;
+    padding-right: 26px;
+    padding-top: 43px;
 }
 
 header nav ul {
@@ -21,21 +32,69 @@ header nav ul {
 
 article {
     display: flex;
-    float: left;
+    margin-left: 259px;
+    
+}
+
+main h2 {
+    font-size: 36px;
+    line-height: 41px;
+    font-family: 'Cardo', serif;
+}
+
+main article datetime {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    color: #9F9F9F;
+}
+
+main article p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
 }
 
 aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    width: 378px;
+    height: 1212px;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
+    box-shadow:0px 4px 30px 0px rgb(0 0 0 / 5%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 500;
+    background-color:  #FBFBFB;
 }
 
 aside a {
     list-style: none;
+    text-decoration: none;
+    padding-left: 58px;
+    padding-bottom: 17px;
+    color: #9F9F9F;
+}
+
+aside h3 {
+    width: 252px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: black;
+    margin: auto;
+    padding-right: 50px;
+    padding-top: 43px;
+
+}
+
+aside div {
+
+    width: 281px;
+    height: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #9F9F9F;
 }
 
 #logotw {
@@ -77,6 +136,7 @@ aside a {
     padding-right: 110px;
     padding-top: 37px;
     padding-bottom: 31px;
+    color: black;
 }
 
 .apropos {
@@ -93,4 +153,34 @@ aside a {
     padding-right: 1173px;
     padding-top: 37px;
     padding-bottom: 31px;
+}
+
+body {
+    width: 1920px
+}
+
+.art1 {
+    text-align: justify;
+    padding-top: 44px;
+    padding-right: 218px;
+}
+
+.HT {
+    padding-right: 181px;
+}
+
+.CDW {
+    padding-right: 68px;
+}
+
+.AP {
+    padding-right: 199px;
+}
+
+.R {
+    padding-right: 168px;
+}
+
+.BP {
+    padding-right: 81px;
 }
