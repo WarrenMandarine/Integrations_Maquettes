@@ -7,32 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Blog</title>
     <meta name="description" content="Site  web qui comprend mon premier blog">
-    <link rel="stylesheet" href="blogvisuel.css">
+    <link rel="stylesheet" href="./webfiles/css/blogvisuel.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="#" target="_blank" title="Redirection vers le haut de page">
-                    <li>Accueil</li>
-                </a>
-                <a href="www.google.fr">
-                    <li>Articles</li>
-                </a>
-                <a href="www.google.fr" target="_blank" title="Redirection vers la page A propos">
-                    <li>A propos</li>
-                </a>
-                <a href="www.msn.fr" target="_blank" title="Redirection vers la page Contact">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </nav>
-
-        <img src="./fb.png" alt="Image du logo Facebook">
-        <img src="./twitter.jpg" alt="Image du logo Twitter">
-        <img src="./header.png" alt="Image d'un homme en plein saut">
+        <div id="headernav">
+            <nav>
+                <ul>
+                    <a href="www.test.fr" target="_blank" title="Redirection vers la page d'accueil" class="accueil">
+                        <li>Accueil</li>
+                    </a>
+                    <a href="www.google.fr"  target="_blank" title="Redirection vers la page article" class="article">
+                        <li>Articles</li>
+                    </a>
+                    <a href="www.google.fr" target="_blank" title="Redirection vers la page A propos" class="apropos">
+                        <li>A propos</li>
+                    </a>
+                    <a href="www.msn.fr" target="_blank" title="Redirection vers la page Contact" class="contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <div id="imglogo">
+            <img src="./src/images/twitter.jpg" alt="Image du logo Twitter" id="logotw">
+            <img src="./src/images/fb.png" alt="Image du logo Facebook" id="logofb">
+            
+        </div>
+        <img src="./src/images/header.png" alt="Image d'un homme en plein saut" class="imgheader">
     </header>
+
     <aside>
         <h3>Catégories</h3>
         <nav>
@@ -66,7 +71,7 @@
         <hr>
     </aside>
     <!--
-    <aside>
+ <aside class="Aside2">
         <h3>Catégories</h3>
         <nav>
         
@@ -83,31 +88,45 @@
         
     </aside>
  -->
-
     <main>
+        
         <article>
+           <img src="./src/images/imgarticle.png" alt="Image d'un racoon" class="imgracoon">
             <datetime>Publié le 14 juin 2018</datetime>
             <h2>Le statut de Freelance</h2>
             <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
                 aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
                 longue explication sur le statut, mon expér...</p>
         </article>
-        <datetime>Publié le 14 juin 2018</datetime>
-        <h2>Le statut de Freelance</h2>
-        <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
-            aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
-            longue explication sur le statut, mon expér...</p>
-        <datetime>Publié le 14 juin 2018</datetime>
-        <h2>Le statut de Freelance</h2>
-        <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
-            aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
-            longue explication sur le statut, mon expér...</p>
-        <datetime>Publié le 14 juin 2018</datetime>
-        <h2>Le statut de Freelance</h2>
-        <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
-            aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
-            longue explication sur le statut, mon expér...</p>
+        <!--  
+        <img src="./src/images/imgarticle.png" alt="Image d'un racoon" class="imgracoon">
+      <article>
+            <datetime>Publié le 14 juin 2018</datetime>
 
+            <h2>Le statut de Freelance</h2>
+            <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
+                aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
+                longue explication sur le statut, mon expér...</p>
+        </article>
+        <img src="./src/images/imgarticle.png" alt="Image d'un racoon" class="imgracoon">
+        <article>
+            <datetime>Publié le 14 juin 2018</datetime>
+
+            <h2>Le statut de Freelance</h2>
+            <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
+                aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
+                longue explication sur le statut, mon expér...</p>
+        </article>
+        <img src="./src/images/imgarticle.png" alt="Image d'un racoon" class="imgracoon">
+        <article>
+            <datetime>Publié le 14 juin 2018</datetime>
+            <h2>Le statut de Freelance</h2>
+            <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
+                aujourd'hui je voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une
+                longue explication sur le statut, mon expér...</p>
+
+        </article>
+        -->
     </main>
 
 

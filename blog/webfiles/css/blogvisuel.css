@@ -1,0 +1,96 @@
+.imgheader {
+    width: 1920px;
+}
+
+#headernav {
+    display: flex;
+    position: absolute;
+}
+
+.imgracoon {
+    width: 364px;
+    height: 203px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-align: right;
+
+}
+
+article {
+    display: flex;
+    float: left;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside a {
+    list-style: none;
+}
+
+#logotw {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 35px;
+    padding-top: 36px;
+    padding-right: 65px;
+}
+
+#logofb {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 36px;
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-left: 1043px;
+
+}
+
+#imglogo {
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.accueil {
+    width: 64px;
+    height: 23px;
+    padding-right: 110px;
+    padding-left: 142px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+.article {
+    width: 64px;
+    height: 23px;
+    padding-right: 110px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+.apropos {
+    width: 78px;
+    height: 23px;
+    padding-right: 110px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
+
+.contact {
+    width: 69px;
+    height: 23px;
+    padding-right: 1173px;
+    padding-top: 37px;
+    padding-bottom: 31px;
+}
