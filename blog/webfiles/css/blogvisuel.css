@@ -1,5 +1,5 @@
 .imgheader {
-    width: 1920px;
+    width: 100%;
 }
 
 #headernav {
@@ -13,7 +13,6 @@
 header a {
     text-decoration: none;
     color: #9F9F9F;
-
 }
 
 .imgracoon {
@@ -27,13 +26,11 @@ header nav ul {
     display: flex;
     list-style: none;
     text-align: right;
-
 }
 
 article {
     display: flex;
     margin-left: 259px;
-    
 }
 
 main h2 {
@@ -60,12 +57,12 @@ aside {
     width: 378px;
     height: 1212px;
     float: right;
-    box-shadow:0px 4px 30px 0px rgb(0 0 0 / 5%);
+    box-shadow: 0px 4px 30px 0px rgb(0 0 0 / 5%);
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     line-height: 23px;
     font-weight: 500;
-    background-color:  #FBFBFB;
+    background-color: #FBFBFB;
 }
 
 aside a {
@@ -85,11 +82,9 @@ aside h3 {
     margin: auto;
     padding-right: 50px;
     padding-top: 43px;
-
 }
 
 aside div {
-
     width: 281px;
     height: 1px;
     margin-left: 40px;
@@ -112,11 +107,9 @@ aside div {
     padding-top: 35px;
     padding-right: 30px;
     padding-left: 1043px;
-
 }
 
 #imglogo {
-
     display: flex;
     flex-direction: row-reverse;
 }
@@ -183,4 +176,17 @@ body {
 
 .BP {
     padding-right: 81px;
+}
+
+@media screen and (max-width: 280px){
+    
+}
+@media screen and (max-width: 768px){
+
+    .imgheader{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    
 }
