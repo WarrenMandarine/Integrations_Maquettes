@@ -4,17 +4,13 @@
     object-fit: cover;
 }
 
-#headernav {
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    line-height: 30px;
-}
-
-#headerDiv{
+#headerDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 header a {
@@ -41,9 +37,10 @@ article {
     max-width: 1040px;
 }
 
-main{
+main {
     width: 86%;
 }
+
 main h2 {
     font-size: 36px;
     line-height: 41px;
@@ -83,7 +80,7 @@ aside a {
     padding-bottom: 17px;
 }
 
-aside ul{
+aside ul {
     padding-left: 58px;
     list-style: none;
 }
@@ -99,13 +96,14 @@ aside h3 {
 }
 
 aside div {
-   
+
     height: 1px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: #9F9F9F;
 }
-.divaside{
+
+.divaside {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -172,16 +170,68 @@ aside div {
 
 }
 
-
-@media screen and (max-width: 280px){
-    
+label,
+#toggle {
+    display: none;
 }
-@media screen and (max-width: 768px){
 
-    .imgheader{
-        width: 25%;
+@media screen and (max-width: 280px) {}
+
+@media screen and (max-width: 768px) {
+
+    .imgheader {
+        width: 100%;
     }
+
+
+    header nav ul,
+    #imglogo {
+        display: none;
+    }
+
+    header #imglogo {
+        display: none;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: black;
+        cursor: pointer;
+    }
+
+    main {
+        width: 98%;
+    }
+
+    aside {
+        width: 0;
+    }
+
+    .imgracoon {
+        width: 100%;
+        height: 0;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside div {
+        margin-left: -100px;
+        margin-right: -235px;
+    }
+
+    .divaside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
-@media screen and (max-width: 1024px) {
-    
-}
+
+@media screen and (max-width: 1024px) {}
