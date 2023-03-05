@@ -170,61 +170,48 @@ aside div {
 
 }
 
-label,
-#toggle {
-    display: none;
-}
-
 @media screen and (max-width: 280px) {}
 
 @media screen and (max-width: 768px) {
-
     .imgheader {
         width: 100%;
     }
-
-
-    header nav ul,
-    #imglogo {
-        display: none;
-    }
-
-    header #imglogo {
-        display: none;
-    }
-
-    label {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: black;
-        cursor: pointer;
-    }
-
     main {
         width: 98%;
     }
 
+    .accueil{
+        padding-left: 0%;
+    }
+
     aside {
-        width: 0;
+        width: auto;
+        box-shadow: 150px 4px 30px 0px rgb (0 0 0 / 5%);
+    }
+
+    aside ul {
+        padding-left: 0%;
+    }
+    
+    aside h3{
+        padding-left: 0%;
+    }
+
+    aside div {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .imgracoon {
-        width: 100%;
-        height: 0;
+        width: 75%;
+        height: 20%;
     }
 
     article {
         display: flex;
         flex-direction: column;
-    }
-
-    aside div {
-        margin-left: -100px;
-        margin-right: -235px;
+        justify-items: center;
+        align-items: center;
     }
 
     .divaside {
@@ -232,6 +219,17 @@ label,
         flex-direction: column-reverse;
     }
 
+    header nav ul {
+        text-align: left;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {}
+
+/**
+
+    
+
+}
