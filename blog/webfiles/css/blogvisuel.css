@@ -69,7 +69,7 @@ aside {
     line-height: 23px;
     font-weight: 500;
     background-color: #FBFBFB;
-    width: 14%;
+    width: 20%;
 }
 
 aside a {
@@ -205,14 +205,23 @@ aside div {
 
     .imgracoon {
         width: 75%;
-        height: 20%;
+        grid-area: image;
     }
 
     article {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-areas: "title time" "image image" "paragraphe paragraphe";
         justify-items: center;
         align-items: center;
+    }
+    datetime {
+        grid-area: time;
+    }
+    h2{
+        grid-area: title;
+    }
+    p{
+        grid-area: paragraphe;
     }
 
     .divaside {
