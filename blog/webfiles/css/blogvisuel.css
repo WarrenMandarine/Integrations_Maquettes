@@ -23,6 +23,7 @@ header a {
     height: 203px;
     padding-right: 26px;
     padding-top: 43px;
+    grid-area: img;
 }
 
 header nav ul {
@@ -32,9 +33,13 @@ header nav ul {
 }
 
 article {
-    display: flex;
+    display: grid;
     margin: auto;
     max-width: 1040px;
+    grid-template-areas:
+        "img time"
+        "img title"
+        "img p";
 }
 
 main {
@@ -45,13 +50,18 @@ main h2 {
     font-size: 36px;
     line-height: 41px;
     font-family: 'Cardo', serif;
+    grid-area: title;
+    margin: 0;
 }
 
-main article datetime {
+main article time {
     font-family: 'Montserrat', sans-serif;
+    display: block;
     font-size: 17px;
     line-height: 23px;
     color: #9F9F9F;
+    grid-area: time;
+    margin: 0;
 }
 
 main article p {
@@ -59,6 +69,8 @@ main article p {
     font-size: 16px;
     line-height: 30px;
     text-align: justify;
+    grid-area: p;
+    margin: 0;
 }
 
 aside {
@@ -164,11 +176,6 @@ aside div {
 
 
 
-.art1 {
-    text-align: justify;
-    padding-top: 44px;
-
-}
 
 @media screen and (max-width: 280px) {}
 
@@ -185,9 +192,11 @@ aside div {
     }
 
     aside {
-        width: auto;
+        max-width: 799px;
         background-color: #FBFBFB;
-        background: linear-gradient(360deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 10.89%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 10.89%);
+        text-align: center;
+        width: 100%;
     }
 
     aside ul {
@@ -199,31 +208,20 @@ aside div {
     }
 
     aside div {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
+        max-width: 281px;
+        background: #C4C4C4;
+
     }
 
     .imgracoon {
         width: 75%;
-        grid-area: image;
+        grid-area: img;
+        margin: auto;
+        object-fit: cover;
+        
     }
-
-    article {
-        display: grid;
-        grid-template-areas: "title time" "image image" "paragraphe paragraphe";
-        justify-items: center;
-        align-items: center;
-    }
-    datetime {
-        grid-area: time;
-    }
-    h2{
-        grid-area: title;
-    }
-    p{
-        grid-area: paragraphe;
-    }
-
+    
     .divaside {
         display: flex;
         flex-direction: column-reverse;
@@ -233,6 +231,28 @@ aside div {
         text-align: left;
         flex-direction: column;
     }
+
+    article {
+        display: grid;
+        grid-template-areas: "title time" "img img " "p p";
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    main article p { 
+        grid-area: p;
+        text-align: justify;
+    }
+
+    main h2 {
+        grid-area: title;
+    }
+
+    main article time {
+        grid-area: time;
+    }
+
 
 }
 
