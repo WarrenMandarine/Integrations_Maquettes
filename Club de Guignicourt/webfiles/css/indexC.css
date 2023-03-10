@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background-color: #E5E5E5;
+}
 header {
     background-color: #345765;
 }
@@ -8,8 +15,10 @@ header {
 
 #Divheader {
     display: flex;
-    justify-content: space-around;
-    align-items: center
+    justify-content: space-between;
+    max-width: 1400px;
+    align-items: center;
+    margin: auto;
 }
 
 header nav ul {
@@ -25,11 +34,8 @@ header a {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1rem;
-}
-
-.accueil {
-    padding-right: 2.5rem;
-    padding-left: 8.8rem;
+    padding: 40px;
+    display: block;
 }
 
 .individuelles {
@@ -70,8 +76,16 @@ main{
     margin: auto;
 }
 
+
+#displayflexFOOTER{
+
+    display: flex;
+    justify-content: center
+}
+
 #divleft{
     display: flex;
+    margin-bottom: 2rem;
 }
 
 h2{
@@ -81,7 +95,14 @@ h2{
     font-size: 2.25rem;
     line-height: 2.25rem;
     letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
 }
+
+main section h2:nth-of-type(2) {
+    margin-top: 8rem;
+}
+
+
 
 #présentation, #cartes{
     padding-top: 7rem;
@@ -163,21 +184,16 @@ main p{
 iframe{
     border: 5px solid #FFFFFF;
     border-radius: 10px; 
-    padding-bottom: 12.6rem;
+    
 }
 
-#footerleft{
-    display: flex;
-}
 
-#footerright{
-    display: flex;
-}
 
 #footerimg{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 #divsiege{
@@ -199,9 +215,14 @@ flex-direction: column;
     flex-direction: column;
 }
 
-#instancediv{
-    display: flex;
-    flex-direction: column;
+.section1{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.section2{
+    margin-left: 15rem;
+    margin-right: 0rem;
+  
 }
 
 #divAinst{
@@ -248,7 +269,7 @@ footer{
         justify-content: center;
     }
     .accueil{
-        padding-left: 0;
+        padding-left: 0rem;
     }
 
     #logoimg {
